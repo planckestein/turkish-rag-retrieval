@@ -1,4 +1,4 @@
-"""kaynak: hybrid retrieval and offline evaluation for Turkish RAG systems."""
+"""tr_retrieval: hybrid retrieval and offline evaluation for Turkish RAG systems."""
 
 from .bm25 import BM25
 from .chunking import chunk_text

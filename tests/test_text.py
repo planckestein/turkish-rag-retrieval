@@ -1,4 +1,4 @@
-from kaynak.text import normalize, tokenize, turkish_lower
+from tr_retrieval.text import normalize, tokenize, turkish_lower
 
 
 def test_turkish_lower_handles_dotted_and_dotless_i():

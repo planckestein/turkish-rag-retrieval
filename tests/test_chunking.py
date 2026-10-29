@@ -1,6 +1,6 @@
 import pytest
 
-from kaynak.chunking import chunk_text, split_sentences
+from tr_retrieval.chunking import chunk_text, split_sentences
 
 TEXT = "Birinci cümle burada. İkinci cümle biraz daha uzun! Üçüncü cümle mi? Dördüncü cümle bitti."
 

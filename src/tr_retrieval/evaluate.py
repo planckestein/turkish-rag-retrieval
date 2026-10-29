@@ -1,7 +1,7 @@
 """Compare retrievers on a corpus + labeled queries.
 
-    python -m kaynak.evaluate data/corpus.jsonl data/queries.jsonl
-    python -m kaynak.evaluate data/corpus.jsonl data/queries.jsonl --dense-model intfloat/multilingual-e5-base
+    python -m tr_retrieval.evaluate data/corpus.jsonl data/queries.jsonl
+    python -m tr_retrieval.evaluate data/corpus.jsonl data/queries.jsonl --dense-model intfloat/multilingual-e5-base
 """
 
 import argparse

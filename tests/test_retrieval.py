@@ -2,11 +2,11 @@ from pathlib import Path
 
 import pytest
 
-from kaynak.bm25 import BM25
-from kaynak.dense import DenseRetriever, TfidfEncoder
-from kaynak.evaluate import build_retrievers, load_jsonl, run_benchmark
-from kaynak.fusion import HybridRetriever, reciprocal_rank_fusion
-from kaynak.metrics import ndcg_at_k, recall_at_k, reciprocal_rank
+from tr_retrieval.bm25 import BM25
+from tr_retrieval.dense import DenseRetriever, TfidfEncoder
+from tr_retrieval.evaluate import build_retrievers, load_jsonl, run_benchmark
+from tr_retrieval.fusion import HybridRetriever, reciprocal_rank_fusion
+from tr_retrieval.metrics import ndcg_at_k, recall_at_k, reciprocal_rank
 
 DATA = Path(__file__).resolve().parents[1] / "data"
 DOCS = [
